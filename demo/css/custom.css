@@ -1,0 +1,50 @@
+
+.gsc-input {
+	padding: 0.3em !important;
+	margin: 0.3em;
+}
+#searchcontrol input[type="button"] {
+    border: 0;
+    margin: 0.3em;
+    color: #fff;
+    background: #1ABC96;
+    padding: 0.5em;
+    border-radius: 2px;
+}
+#searchcontrol {
+	text-align: center;
+}
+.gsc-control {
+	margin: auto;
+	width: 60%;
+	font-size: 1.3em;
+}
+a.gs-title {
+    color: #1ABC96 !important;
+}
+.gs-result .gs-title, .gs-result .gs-title * {
+    color: #1ABC96;
+    text-decoration: underline;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+    cursor: pointer;
+
+    /* text-decoration: underline; */
+    margin-right: 8px;
+    border: 1px solid;
+    background: #407EB8;
+    display: inline;
+    padding: 2px;
+    border-radius: 0.2em;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    text-decoration: none !important;
+    color: #fff;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    cursor: default;
+    color: #407EB8;
+    font-weight: bold;
+    text-decoration: none !important;
+    background: #fff;
+}
